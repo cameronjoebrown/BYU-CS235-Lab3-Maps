@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		52E5936021821F3F0086C532 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52E5935F21821F3F0086C532 /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		52E5935A21821F3F0086C532 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,10 @@
 
 /* Begin PBXFileReference section */
 		52E5935C21821F3F0086C532 /* Lab 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab 3"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E5935F21821F3F0086C532 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52E5937521821FAC0086C532 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52E5937621821FAC0086C532 /* Trump.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Trump.txt; sourceTree = "<group>"; };
+		52E5937721821FAC0086C532 /* 1Nephi.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1Nephi.txt; sourceTree = "<group>"; };
+		52E5937821821FAC0086C532 /* Nephi_Trump.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Nephi_Trump.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +40,7 @@
 		52E5935321821F3F0086C532 = {
 			isa = PBXGroup;
 			children = (
-				52E5935E21821F3F0086C532 /* Lab 3 */,
+				52E5935E21821F3F0086C532 /* Lab3 */,
 				52E5935D21821F3F0086C532 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +53,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52E5935E21821F3F0086C532 /* Lab 3 */ = {
+		52E5935E21821F3F0086C532 /* Lab3 */ = {
 			isa = PBXGroup;
 			children = (
-				52E5935F21821F3F0086C532 /* main.cpp */,
+				52E5937721821FAC0086C532 /* 1Nephi.txt */,
+				52E5937821821FAC0086C532 /* Nephi_Trump.txt */,
+				52E5937521821FAC0086C532 /* README.md */,
+				52E5937621821FAC0086C532 /* Trump.txt */,
 			);
-			path = "Lab 3";
+			path = Lab3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E5936021821F3F0086C532 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
