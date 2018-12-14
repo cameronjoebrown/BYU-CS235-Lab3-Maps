@@ -6,6 +6,11 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5206B86E21C36BF000AF59F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5206B86D21C36BF000AF59F0 /* main.cpp */; };
+		5206B87921C372F100AF59F0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 5206B87621C372F100AF59F0 /* Makefile */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		52E5935A21821F3F0086C532 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,6 +24,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5206B86D21C36BF000AF59F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5206B86F21C372F000AF59F0 /* main */ = {isa = PBXFileReference; lastKnownFileType = file; path = main; sourceTree = "<group>"; };
+		5206B87021C372F000AF59F0 /* Siken_1_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Siken_1_1.txt; sourceTree = "<group>"; };
+		5206B87121C372F000AF59F0 /* Nephi_set.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nephi_set.txt; sourceTree = "<group>"; };
+		5206B87221C372F000AF59F0 /* Nephi_vector.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nephi_vector.txt; sourceTree = "<group>"; };
+		5206B87321C372F000AF59F0 /* debugged */ = {isa = PBXFileReference; lastKnownFileType = file; path = debugged; sourceTree = "<group>"; };
+		5206B87421C372F000AF59F0 /* Siken_vector.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Siken_vector.txt; sourceTree = "<group>"; };
+		5206B87521C372F000AF59F0 /* Siken_set.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Siken_set.txt; sourceTree = "<group>"; };
+		5206B87621C372F100AF59F0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		5206B87721C372F100AF59F0 /* Nephi_1_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nephi_1_1.txt; sourceTree = "<group>"; };
+		5206B87821C372F100AF59F0 /* Siken.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Siken.txt; sourceTree = "<group>"; };
 		52E5935C21821F3F0086C532 /* Lab 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E5937521821FAC0086C532 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		52E5937621821FAC0086C532 /* Trump.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Trump.txt; sourceTree = "<group>"; };
@@ -56,10 +72,21 @@
 		52E5935E21821F3F0086C532 /* Lab3 */ = {
 			isa = PBXGroup;
 			children = (
+				5206B87321C372F000AF59F0 /* debugged */,
+				5206B86F21C372F000AF59F0 /* main */,
+				5206B87621C372F100AF59F0 /* Makefile */,
+				5206B87721C372F100AF59F0 /* Nephi_1_1.txt */,
+				5206B87121C372F000AF59F0 /* Nephi_set.txt */,
+				5206B87221C372F000AF59F0 /* Nephi_vector.txt */,
+				5206B87021C372F000AF59F0 /* Siken_1_1.txt */,
+				5206B87521C372F000AF59F0 /* Siken_set.txt */,
+				5206B87421C372F000AF59F0 /* Siken_vector.txt */,
+				5206B87821C372F100AF59F0 /* Siken.txt */,
 				52E5937721821FAC0086C532 /* 1Nephi.txt */,
 				52E5937821821FAC0086C532 /* Nephi_Trump.txt */,
 				52E5937521821FAC0086C532 /* README.md */,
 				52E5937621821FAC0086C532 /* Trump.txt */,
+				5206B86D21C36BF000AF59F0 /* main.cpp */,
 			);
 			path = Lab3;
 			sourceTree = "<group>";
@@ -98,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52E5935721821F3F0086C532 /* Build configuration list for PBXProject "Lab 3" */;
+			buildConfigurationList = 52E5935721821F3F0086C532 /* Build configuration list for PBXProject "Lab3" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5206B87921C372F100AF59F0 /* Makefile in Sources */,
+				5206B86E21C36BF000AF59F0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52E5935721821F3F0086C532 /* Build configuration list for PBXProject "Lab 3" */ = {
+		52E5935721821F3F0086C532 /* Build configuration list for PBXProject "Lab3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52E5936121821F3F0086C532 /* Debug */,
